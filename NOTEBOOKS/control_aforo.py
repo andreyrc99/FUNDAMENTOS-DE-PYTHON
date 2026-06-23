@@ -73,3 +73,17 @@ Otros casos para probar:
 
 
 # Desarrolle su solución a partir de esta línea.
+CAPACIDAD_MAXIMA = 700
+ocupacion_actual = 0
+grupos_aceptados = []
+grupos_rechazados = []
+cantidad_aceptados=0;
+estado=""
+while estado=="fin":
+  grupo = int(input("Ingrese el tamaño del grupo"))
+  if ocupacion_actual <= 700:
+    grupos_aceptados[].append()
+    cantidad_aceptados+1
+    print("Desea continuar o digite 'fin' para terminar" )  
+  #elif grupo.lower() == "fin":
+    break
